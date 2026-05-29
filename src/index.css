@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Inter", sans-serif;
+  --font-display: "Montserrat", "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050B18;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+  border: 2px solid #050B18;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #facc15;
+}
+
+/* Custom Selection Highlight */
+::selection {
+  background-color: rgba(250, 204, 21, 0.25);
+  color: #facc15;
+}
+
+/* Smooth Scrolling natively supported HTML side with hardware-accelerated rendering optimization */
+html {
+  scroll-behavior: smooth;
+  background-color: #050B18;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050B18;
+  overflow-x: hidden;
+  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hardware acceleration helper classes for butter-smooth animation/video playing */
+.gpu-accelerated {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  will-change: transform, opacity;
+}
+
+/* Text Stroke utilities */
+.text-stroke-white {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+}
+.text-stroke-amber {
+  -webkit-text-stroke: 1px rgba(250, 204, 21, 0.4);
+}
