@@ -78,7 +78,7 @@ export default function Contact() {
               <div className="grid grid-cols-1 gap-2.5">
                 {/* Email Address */}
                 <a
-                  href="mailto:southstack.services@gmail.com"
+                  href="mailto:southstack.studio@gmail.com"
                   className="flex items-center gap-3.5 p-2.5 rounded-lg bg-white/5 border border-white/10 hover:border-amber-400/30 text-slate-300 hover:text-white transition-all duration-300 group interactive-hover"
                 >
                   <div className="w-9 h-9 rounded-md bg-slate-950 flex items-center justify-center text-amber-400 group-hover:shadow-[0_0_10px_rgba(250,204,21,0.15)] transition-all duration-300">
@@ -86,7 +86,7 @@ export default function Contact() {
                   </div>
                   <div className="flex flex-col items-start text-left">
                     <span className="font-mono text-[9px] text-slate-500 uppercase leading-none">Email Agent</span>
-                    <span className="text-xs font-mono mt-1 select-all">southstack.services@gmail.com</span>
+                    <span className="text-xs font-mono mt-1 select-all">southstack.studio@gmail.com</span>
                   </div>
                 </a>
 
